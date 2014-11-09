@@ -6,4 +6,4 @@
 #  -c, --continue             resume partially downloaded files
 #  -n, --netrc                use .netrc authentication data
 
-alias youtube="youtube-dl -w -c -n -t --prefer-free-formats"
+alias youtube="youtube-dl --format='bestvideo+bestaudio' -w -c -n -t --prefer-free-formats"
