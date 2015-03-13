@@ -1,9 +1,7 @@
 #Download with title
 
 # Youtube-dl options are:
-#  -t, --title                use title in file name
 #  -w, --no-overwrites        do not overwrite files
 #  -c, --continue             resume partially downloaded files
-#  -n, --netrc                use .netrc authentication data
 
-alias youtube="youtube-dl --format='bestvideo+bestaudio' -w -c -n -t"
+alias youtube="youtube-dl --format 'bestvideo[ext=mp4]+bestaudio' --merge-output-format mkv -w -c"
